@@ -31,8 +31,7 @@ public class DataReaderImpl implements DataReader {
             throw new HandlingException("Reading file is fail ", e);
         }
         StringBuilder stringBuilder = new StringBuilder();
-        for (String s : lines
-                ) {
+        for (String s : lines) {
             stringBuilder.append(s).append("\n");
         }
         return stringBuilder.toString();
