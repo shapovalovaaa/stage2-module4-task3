@@ -25,5 +25,4 @@ public class RectangleObserver implements Observer {
     private double findPerimeter(Rectangle rectangle) {
         return (rectangle.getSideA() + rectangle.getSideB()) * 2;
     }
-    // Write your code here!
 }
